@@ -49,7 +49,6 @@ const httpConvertHtmlToPdf = async (req, res) => {
             ]
         }
         await sendMail(msg)
-        fs.unlinkSync(htmlFile)
         res.json({
             success: true,
             message: "Your HTML file has been successfully converted and send to your given email address!"
