@@ -1,5 +1,5 @@
 # PDF Converter
- It is a backend system where you can upload HTML files, and get a converted PDF to your email address.
+ It is a backend system built using Express where you can upload HTML files, and get a converted PDF to your email address.
 
 ## Packages Used:
 - **multer**
